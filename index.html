@@ -1,3 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KOS MADAR KHMENI — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <h1 class="logo">KOS MADAR KHMENI</h1>
+        <nav class="nav">
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h2 class="hero-title">Hi — I build thoughtful web experiences.</h2>
+          <p class="hero-sub">Front-end focused developer with an eye for clean design and performant code.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn btn-outline" href="#contact">Get in Touch</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="container projects">
+        <h3>Selected Projects</h3>
+        <div class="grid">
+          <article class="card">
+            <h4>Project One</h4>
+            <p>Small description of the project. Technologies: HTML, CSS, JS.</p>
+            <a class="link" href="#">View</a>
+          </article>
+
+          <article class="card">
+            <h4>Project Two</h4>
+            <p>Small description. Link to code or demo can go here.</p>
+            <a class="link" href="#">View</a>
+          </article>
+
+          <article class="card">
+            <h4>Project Three</h4>
+            <p>Small description. Replace with real project details.</p>
+            <a class="link" href="#">View</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="container about">
+        <h3>About Me</h3>
+        <p>I enjoy building intuitive interfaces and learning new web technologies. I focus on accessibility, performance, and maintainable code.</p>
+      </section>
+
+      <section id="contact" class="container contact">
+        <h3>Contact</h3>
+        <p>Want to collaborate or hire me? Send an email or connect on GitHub.</p>
+        <p>
+          <a class="link" href="mailto:you@example.com">you@example.com</a>
+          &nbsp;•&nbsp;
+          <a class="link" href="#">GitHub</a>
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small>© <span id="year"></span> KOS MADAR KHMENI — Built with care.</small>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
